@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Design_Dashboard_Modern;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,11 +40,12 @@ namespace Design_Dashboard_Modern
         {
             
         }
-
+        string idDon;
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
             tbIdDon.Text = dataGridView1.Rows[e.RowIndex].Cells["soDon"].Value.ToString();
+            idDon = tbIdDon.Text;
             dateTimePickerNgayGui.Value = Convert.ToDateTime( dataGridView1.Rows[e.RowIndex].Cells["ngayGui"].Value.ToString());
             cbTrangThai.Text = dataGridView1.Rows[e.RowIndex].Cells["trangThai"].Value.ToString();
             tbNguoiGui.Text = dataGridView1.Rows[e.RowIndex].Cells["tenGV"].Value.ToString();
@@ -159,6 +161,11 @@ namespace Design_Dashboard_Modern
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            DocWord f = new DocWord();
         }
     }
 }

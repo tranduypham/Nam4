@@ -51,7 +51,7 @@ namespace Design_Dashboard_Modern
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
-            if (tbUsername.Text == "Username")
+            if (tbUsername.Text == "Tên đăng nhập")
             {
                 tbUsername.Text = "";
             }
@@ -61,13 +61,13 @@ namespace Design_Dashboard_Modern
         {
             if (tbUsername.Text == "")
             {
-                tbUsername.Text = "Username";
+                tbUsername.Text = "Tên đăng nhập";
             }
         }
 
         private void textBox2_Enter(object sender, EventArgs e)
         {
-            if (tbPassword.Text == "Password")
+            if (tbPassword.Text == "Mật khẩu")
             {
                 tbPassword.Text = "";
                 tbPassword.UseSystemPasswordChar = true;
@@ -79,7 +79,7 @@ namespace Design_Dashboard_Modern
             if (tbPassword.Text == "")
             {
                 tbPassword.UseSystemPasswordChar = false;
-                tbPassword.Text = "Password";
+                tbPassword.Text = "Mật khẩu";
             }
         }
 

@@ -54,6 +54,7 @@
             this.ngayGui = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.trangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ghiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -72,6 +73,7 @@
             this.groupBox1.Controls.Add(this.cbKhoa);
             this.groupBox1.Controls.Add(this.tbGhiChu);
             this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnHienThi);
             this.groupBox1.Controls.Add(this.btnTimKiem);
             this.groupBox1.Controls.Add(this.tbNguoiGui);
@@ -342,6 +344,17 @@
             this.ghiChu.Name = "ghiChu";
             this.ghiChu.Visible = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(686, 90);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 20);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Xem Đơn";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Confirm_Report
             // 
             this.AcceptButton = this.btnDuyet;
@@ -390,6 +403,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ngayGui;
         private System.Windows.Forms.DataGridViewTextBoxColumn trangThai;
         private System.Windows.Forms.DataGridViewTextBoxColumn ghiChu;
+        private System.Windows.Forms.Button button1;
     }
 }
 
