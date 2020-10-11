@@ -267,7 +267,7 @@
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label9);
-            this.panel4.Location = new System.Drawing.Point(183, 17);
+            this.panel4.Location = new System.Drawing.Point(175, 17);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(445, 85);
             this.panel4.TabIndex = 8;
@@ -319,7 +319,7 @@
             this.panelTieuDe_2.Controls.Add(this.panel3);
             this.panelTieuDe_2.Controls.Add(this.label4);
             this.panelTieuDe_2.Controls.Add(this.label6);
-            this.panelTieuDe_2.Location = new System.Drawing.Point(560, 8);
+            this.panelTieuDe_2.Location = new System.Drawing.Point(543, 8);
             this.panelTieuDe_2.Name = "panelTieuDe_2";
             this.panelTieuDe_2.Size = new System.Drawing.Size(391, 106);
             this.panelTieuDe_2.TabIndex = 9;
@@ -435,7 +435,7 @@
             this.panel5.Controls.Add(this.label13);
             this.panel5.Controls.Add(this.tbHoTen);
             this.panel5.Controls.Add(this.label12);
-            this.panel5.Location = new System.Drawing.Point(99, 136);
+            this.panel5.Location = new System.Drawing.Point(91, 136);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(656, 158);
             this.panel5.TabIndex = 10;
@@ -620,7 +620,7 @@
             this.grHK1_MM.RowHeadersWidth = 51;
             this.grHK1_MM.RowTemplate.Height = 24;
             this.grHK1_MM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grHK1_MM.Size = new System.Drawing.Size(840, 211);
+            this.grHK1_MM.Size = new System.Drawing.Size(823, 211);
             this.grHK1_MM.TabIndex = 27;
             this.grHK1_MM.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.grHK1_MM.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView1_EditingControlShowing);
@@ -698,7 +698,7 @@
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(840, 211);
+            this.dataGridView2.Size = new System.Drawing.Size(823, 211);
             this.dataGridView2.TabIndex = 29;
             this.dataGridView2.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView2_EditingControlShowing_1);
             // 
@@ -767,7 +767,7 @@
             this.panel6.Controls.Add(this.label20);
             this.panel6.Location = new System.Drawing.Point(0, 310);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(844, 1059);
+            this.panel6.Size = new System.Drawing.Size(827, 1059);
             this.panel6.TabIndex = 30;
             // 
             // panel12
@@ -906,7 +906,7 @@
             this.dataGridView4.RowHeadersWidth = 51;
             this.dataGridView4.RowTemplate.Height = 24;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(844, 211);
+            this.dataGridView4.Size = new System.Drawing.Size(827, 211);
             this.dataGridView4.TabIndex = 33;
             this.dataGridView4.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView4_EditingControlShowing_1);
             // 
@@ -979,7 +979,7 @@
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 24;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(840, 211);
+            this.dataGridView3.Size = new System.Drawing.Size(823, 211);
             this.dataGridView3.TabIndex = 31;
             this.dataGridView3.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView3_EditingControlShowing_2);
             // 
@@ -1036,7 +1036,7 @@
             // 
             this.picCancle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picCancle.Image = ((System.Drawing.Image)(resources.GetObject("picCancle.Image")));
-            this.picCancle.Location = new System.Drawing.Point(946, 12);
+            this.picCancle.Location = new System.Drawing.Point(929, 12);
             this.picCancle.Name = "picCancle";
             this.picCancle.Size = new System.Drawing.Size(31, 31);
             this.picCancle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1054,7 +1054,7 @@
             this.panel13.Controls.Add(this.panelTieuDe_1);
             this.panel13.Location = new System.Drawing.Point(12, 76);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(951, 129);
+            this.panel13.Size = new System.Drawing.Size(934, 129);
             this.panel13.TabIndex = 35;
             // 
             // panel14
@@ -1066,7 +1066,7 @@
             this.panel14.Controls.Add(this.panel4);
             this.panel14.Location = new System.Drawing.Point(88, 211);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(847, 1446);
+            this.panel14.Size = new System.Drawing.Size(830, 1446);
             this.panel14.TabIndex = 36;
             // 
             // panel15
@@ -1080,7 +1080,7 @@
             this.panel15.Controls.Add(this.panel21);
             this.panel15.Location = new System.Drawing.Point(88, 1663);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(844, 1187);
+            this.panel15.Size = new System.Drawing.Size(827, 1187);
             this.panel15.TabIndex = 47;
             // 
             // panel16
@@ -1091,7 +1091,7 @@
             this.panel16.Controls.Add(this.dataGridView5);
             this.panel16.Location = new System.Drawing.Point(0, 22);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(841, 252);
+            this.panel16.Size = new System.Drawing.Size(824, 252);
             this.panel16.TabIndex = 0;
             // 
             // label24
@@ -1124,7 +1124,7 @@
             this.dataGridView5.RowHeadersWidth = 51;
             this.dataGridView5.RowTemplate.Height = 24;
             this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView5.Size = new System.Drawing.Size(838, 211);
+            this.dataGridView5.Size = new System.Drawing.Size(821, 211);
             this.dataGridView5.TabIndex = 35;
             this.dataGridView5.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView5_EditingControlShowing);
             // 
@@ -1167,7 +1167,7 @@
             this.panel17.Controls.Add(this.dataGridView6);
             this.panel17.Location = new System.Drawing.Point(3, 302);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(838, 279);
+            this.panel17.Size = new System.Drawing.Size(821, 279);
             this.panel17.TabIndex = 1;
             // 
             // label25
@@ -1197,7 +1197,7 @@
             this.dataGridView6.RowHeadersVisible = false;
             this.dataGridView6.RowHeadersWidth = 51;
             this.dataGridView6.RowTemplate.Height = 24;
-            this.dataGridView6.Size = new System.Drawing.Size(837, 211);
+            this.dataGridView6.Size = new System.Drawing.Size(820, 211);
             this.dataGridView6.TabIndex = 35;
             this.dataGridView6.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView6_EditingControlShowing);
             // 
@@ -1227,7 +1227,7 @@
             this.panel18.Controls.Add(this.label43);
             this.panel18.Controls.Add(this.label46);
             this.panel18.Controls.Add(this.label54);
-            this.panel18.Location = new System.Drawing.Point(63, 610);
+            this.panel18.Location = new System.Drawing.Point(54, 610);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(702, 244);
             this.panel18.TabIndex = 41;
@@ -1395,7 +1395,7 @@
             // 
             this.panel20.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel20.Controls.Add(this.btnSend);
-            this.panel20.Location = new System.Drawing.Point(-72, 1042);
+            this.panel20.Location = new System.Drawing.Point(-81, 1042);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(958, 117);
             this.panel20.TabIndex = 43;
@@ -1420,7 +1420,7 @@
             this.panel21.Controls.Add(this.panel22);
             this.panel21.Controls.Add(this.panel23);
             this.panel21.Controls.Add(this.panel24);
-            this.panel21.Location = new System.Drawing.Point(56, 872);
+            this.panel21.Location = new System.Drawing.Point(47, 872);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(699, 144);
             this.panel21.TabIndex = 42;
@@ -1518,7 +1518,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 10);
-            this.ClientSize = new System.Drawing.Size(1183, 764);
+            this.ClientSize = new System.Drawing.Size(1200, 764);
             this.Controls.Add(this.panel15);
             this.Controls.Add(this.panel14);
             this.Controls.Add(this.panel13);

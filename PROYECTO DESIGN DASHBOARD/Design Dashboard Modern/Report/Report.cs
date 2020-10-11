@@ -14,9 +14,11 @@ namespace Design_Dashboard_Modern
 {
     public partial class Report : Form
     {
+        #region Fields
         private string jsonInfor;
-
+        UserInfor inf;
         public string JsonInfor { get => jsonInfor; set => jsonInfor = value; }
+        #endregion
 
         public Report(string json)
         {
@@ -24,7 +26,7 @@ namespace Design_Dashboard_Modern
             this.JsonInfor = json;
             LoadInfor();
         }
-        UserInfor inf;
+        
         public void LoadInfor()
         {
             inf = JsonConvert.DeserializeObject<UserInfor>(JsonInfor);
